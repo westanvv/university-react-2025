@@ -1,0 +1,15 @@
+{
+  "plugins": ["stylelint-prettier"],
+  "extends": ["stylelint-config-standard-scss", "stylelint-config-prettier-scss"],
+  "rules": {
+    "prettier/prettier": true,
+    "selector-class-pattern": "([a-zA-Z0-9]+)|(--|__)",
+    "color-function-notation": null,
+    "alpha-value-notation": null,
+    "no-descending-specificity": null,
+    "media-feature-range-notation": null,
+    "selector-not-notation": null,
+    "declaration-block-no-redundant-longhand-properties": null,
+    "selector-pseudo-class-no-unknown": [true, { "ignorePseudoClasses": ["global"] }]
+  }
+}
